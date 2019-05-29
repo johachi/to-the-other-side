@@ -1,16 +1,613 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
-    <ImageButton
-            android:layout_width="70dp"
-            android:layout_height="13dp"
-            app:srcCompat="@drawable/wall_horizontal"
-            android:id="@+id/wall_horizontal_00" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="72dp" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="100dp"/>
-</android.support.constraint.ConstraintLayout>
+        tools:context=".MainActivity"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#eeeeee">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20pt"
+            android:gravity="center">
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t00"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w00a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t01"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w01a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t02"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w02a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t03"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w03a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t04"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w04a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t05"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10pt"
+            android:gravity="center">
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w00b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w01b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w02b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w03b"/>
+
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w04b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w05b"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20pt"
+            android:gravity="center">
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t10"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w10a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t11"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w11a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t12"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w12a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t13"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w13a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t14"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w14a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t15"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10pt"
+            android:gravity="center">
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w10b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w11b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w12b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w13b"/>
+
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w14b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w15b"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20pt"
+            android:gravity="center">
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t20"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w20a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t21"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w21a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t22"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w22a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t23"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w23a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t24"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w24a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t25"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10pt"
+            android:gravity="center">
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w20b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w21b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w22b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w23b"/>
+
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w24b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w25b"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20pt"
+            android:gravity="center">
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t30"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w30a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t31"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w31a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t32"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w32a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t33"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w33a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t34"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w34a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t35"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10pt"
+            android:gravity="center">
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w30b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w31b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w32b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w33b"/>
+
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w34b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w35b"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20pt"
+            android:gravity="center">
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t40"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w40a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t41"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w41a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t42"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w42a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t43"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w43a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t44"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w44a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t45"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10pt"
+            android:gravity="center">
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w40b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w41b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w42b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w43b"/>
+
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_marginRight="10pt"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w44b"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="10pt" android:id="@+id/w45b"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20pt"
+            android:gravity="center">
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t50"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w50a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t51"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w51a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t52"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w52a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t53"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w53a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t54"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="10pt"
+                android:layout_height="20pt" android:id="@+id/w54a"/>
+        <Button
+                android:text=""
+                android:background="@drawable/button_bg_stroke"
+                android:layout_width="20pt"
+                android:layout_height="20pt" android:id="@+id/t55"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
