@@ -26,6 +26,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w00a"/>
         <Button
                 android:text=""
@@ -38,6 +39,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w01a"/>
         <Button
                 android:text=""
@@ -50,6 +52,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w02a"/>
         <Button
                 android:text=""
@@ -62,6 +65,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w03a"/>
         <Button
                 android:text=""
@@ -74,6 +78,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w04a"/>
         <Button
                 android:text=""
@@ -95,24 +100,28 @@
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w00b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w01b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w02b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w03b"/>
 
         <Button
@@ -120,11 +129,13 @@
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w04b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w05b"/>
 
     </LinearLayout>
@@ -145,6 +156,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w10a"/>
         <Button
                 android:text=""
@@ -157,6 +169,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w11a"/>
         <Button
                 android:text=""
@@ -169,6 +182,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w12a"/>
         <Button
                 android:text=""
@@ -181,6 +195,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w13a"/>
         <Button
                 android:text=""
@@ -193,6 +208,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w14a"/>
         <Button
                 android:text=""
@@ -214,24 +230,28 @@
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w10b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w11b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w12b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w13b"/>
 
         <Button
@@ -239,11 +259,13 @@
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w14b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w15b"/>
 
     </LinearLayout>
@@ -264,6 +286,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w20a"/>
         <Button
                 android:text=""
@@ -276,6 +299,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w21a"/>
         <Button
                 android:text=""
@@ -288,6 +312,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w22a"/>
         <Button
                 android:text=""
@@ -300,6 +325,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w23a"/>
         <Button
                 android:text=""
@@ -312,6 +338,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w24a"/>
         <Button
                 android:text=""
@@ -333,24 +360,28 @@
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w20b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w21b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w22b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w23b"/>
 
         <Button
@@ -358,11 +389,13 @@
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w24b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w25b"/>
 
     </LinearLayout>
@@ -383,6 +416,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w30a"/>
         <Button
                 android:text=""
@@ -395,6 +429,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w31a"/>
         <Button
                 android:text=""
@@ -407,6 +442,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w32a"/>
         <Button
                 android:text=""
@@ -419,6 +455,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w33a"/>
         <Button
                 android:text=""
@@ -431,6 +468,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w34a"/>
         <Button
                 android:text=""
@@ -452,24 +490,28 @@
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w30b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w31b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w32b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w33b"/>
 
         <Button
@@ -477,11 +519,13 @@
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w34b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w35b"/>
 
     </LinearLayout>
@@ -502,6 +546,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w40a"/>
         <Button
                 android:text=""
@@ -514,6 +559,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w41a"/>
         <Button
                 android:text=""
@@ -526,6 +572,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w42a"/>
         <Button
                 android:text=""
@@ -538,6 +585,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w43a"/>
         <Button
                 android:text=""
@@ -550,6 +598,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w44a"/>
         <Button
                 android:text=""
@@ -571,24 +620,28 @@
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w40b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w41b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w42b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w43b"/>
 
         <Button
@@ -596,11 +649,13 @@
                 android:background="@drawable/button_bg_stroke"
                 android:layout_marginEnd="10pt"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w44b"/>
         <Button
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="20pt"
+                android:onClick="placeWall"
                 android:layout_height="10pt" android:id="@+id/w45b"/>
 
     </LinearLayout>
@@ -621,6 +676,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w50a"/>
         <Button
                 android:text=""
@@ -633,6 +689,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w51a"/>
         <Button
                 android:text=""
@@ -645,6 +702,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w52a"/>
         <Button
                 android:text=""
@@ -657,6 +715,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w53a"/>
         <Button
                 android:text=""
@@ -669,6 +728,7 @@
                 android:text=""
                 android:background="@drawable/button_bg_stroke"
                 android:layout_width="10pt"
+                android:onClick="placeWall"
                 android:layout_height="20pt" android:id="@+id/w54a"/>
         <Button
                 android:text=""

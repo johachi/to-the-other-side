@@ -20,20 +20,28 @@ class MainActivity : AppCompatActivity() {
     var activePlayer = 2
     val player1 = "♔"
     val player2 = "♚"
+
     fun placedPiece(view: View){
-        val clickedButton = view as Button
+        val clickedTile = view as Button
 
         if(activePlayer == 1){
             clearBoard()
-            clickedButton.text = player1
+            clickedTile.text = player1
             activePlayer = 2
         } else {
             clearBoard()
-            clickedButton.text = player2
+            clickedTile.text = player2
             activePlayer = 1
         }
 
 
+
+    }
+
+    fun placeWall(view: View){
+        val clickedWall = view as Button
+
+        clickedWall.setBackgroundResource(R.drawable.wood)
 
     }
 
