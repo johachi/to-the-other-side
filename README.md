@@ -22,6 +22,7 @@ My first app in Kontlin
 - First to the other side wins.
 
 ## To add
+- [ ] Refactor codbase to generate board from state
 - [ ] Move restrictions
 - [ ] More visiable player pieces
 - [ ] Online multiplayer posibility
