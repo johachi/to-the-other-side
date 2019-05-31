@@ -23,6 +23,7 @@ My first app in Kontlin
 
 ## To add
 - [ ] Move restrictions
+- [ ] More visiable player pieces
 - [ ] Online multiplayer posibility
 
 ## How to install
