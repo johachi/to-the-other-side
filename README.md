@@ -2,8 +2,8 @@
 My first app in Kontlin
 
 ## Screen Shots
-[!Screenshot](/screenshots/BeforeStart.png)
-[!Screenshot](/screenshots/DuringPlay.png)
+![Screenshot](/screenshots/BeforeStart.png)
+![Screenshot](/screenshots/DuringPlay.png)
 
 ## Rules
 - The goal for the first player is to go from the top to the bottom. The goal for the second player is to go from the top to the bottom.
