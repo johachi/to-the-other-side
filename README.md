@@ -6,7 +6,7 @@ My first app in Kontlin
 ![Screenshot](/screenshots/DuringPlay_small.png)
 
 ## Rules
-- The goal for the first player is to go from the top to the bottom. The goal for the second player is to go from the top to the bottom.
+- The goal for the first player is to go from the top to the bottom. The goal for the second player is to go from the bottom to the top.
 - The player can choose if they want to move their piece one step, or remove two rectangles.
 - The player may only walk one step at the time.
 - The player can only move one step horizontaly or verticaly.
