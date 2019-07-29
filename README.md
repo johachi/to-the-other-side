@@ -1,5 +1,5 @@
 # Lonely Kings
-My first app in Kontlin
+The game was developed over only 5 day long sprint at Code Chrysalis. It is an Android adaptation of the strategy game Quoridor.
 
 ## Screen Shots
 ![Screenshot](/screenshots/BeforeStart_small.png)
